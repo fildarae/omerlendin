@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Align items vertically */
+}
+
+.centered {
+    text-align: center;
+}
+
+.centered img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Space between image and button */
+}
+
+#toggleButton {
+    background-color: rgb(255, 0, 0); /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Bigger and more padding */
+    font-size: 16px; /* Larger font */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#toggleButton:hover {
+    background-color: rgb(189, 69, 69); /* Darker shade on hover */
+}
+
+/* Existing styles... */
+
+.message {
+    font-size: 48px; /* Large font size for the message */
+    color: #333; /* Color of the text */
+    margin-top: 20px; /* Space above the text */
+}
+
+.centered {
+    text-align: center;
+}
+
+#leftImage, #rightImage {
+    max-width: 45%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+#leftImage {
+    float: left;
+}
+
+#rightImage {
+    float: right;
+}
+
+#respectButton {
+    background-color: rgb(255, 0, 0); /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Bigger and more padding */
+    font-size: 16px; /* Larger font */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#respectButton:hover {
+    background-color: rgb(189, 69, 69); /* Darker shade on hover */
+}
+
+.background-image {
+    background-image: url('flag.jpg'); /* Path to your background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+}
